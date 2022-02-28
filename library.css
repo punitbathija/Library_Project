@@ -1,0 +1,50 @@
+* {
+  background-color: rgb(182, 176, 176);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  color: rgb(109, 109, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookform {
+  display: flex;
+  border: 1px solid black;
+  max-height: 350px;
+  max-width: 350px;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 355px;
+  column-gap: 35px;
+}
+
+#submit {
+  color: black;
+}
+
+.card {
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  height: 200px;
+  visibility: inherit;
+}
+
+.text {
+  flex-wrap: wrap;
+  display: flex;
+  color: red;
+  height: 200px;
+  width: 265px;
+}
