@@ -11,22 +11,21 @@
 <body>
     <div class = 'head'>
         <h1>Smart Library</h1>
-        <button class="add" onclick="form">➕</button>
+        <button class="add">➕</button>
     </div>
         <div class = 'bookform'>
-            <h1>New Book</h1>
-            <form>
+             <form>
+                <h1>New Book</h1>
                 <label for="Title">Title</label>
                 <input type="text" id = 'title' placeholder="Title" required>
-
+                <br>
                 <label for="Author">Author</label>
                 <input type="text" id = 'author' placeholder="Author" required>
-
+                <br>
                 <label for="Number-of-pages">Number Of Pages</label>
                 <input type="number" id = 'numberOfPages' placeholder="Pages">
-                
-                <label for="have-you-read-the-book">Have you Read The Book?</label>
-                
+                <br>
+                <label for="have-you-read-the-book" id = 'hr'>Have you Read The Book?</label>
                 <label for="yes">yes</label>
                 <input type="checkbox" name="yes" id="read">
                 <br>                
@@ -34,7 +33,7 @@
 
             </form>
         </div>
-        <div class="container" onclick="dispayBook()">
+        <div class="container">
 
         </div>
 </body>
